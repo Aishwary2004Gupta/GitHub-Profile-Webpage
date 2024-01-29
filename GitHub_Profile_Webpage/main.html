@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- linking to the css file -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--The iconic SVG, font, and CSS toolkit-->
+</head>
+<body>
+
+    <script src="application.js"></script> <!-- linking to the js file -->
+
+    <nav>
+        <i class="fa-brands fa-github"></i>
+        <section class="nav-container">
+            <ul>
+                <li>
+                    <a href="#">Product <i class="fa-solid fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Solutions <i class="fa-solid fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Open-Source</a>
+                </li>   
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+            </ul>
+
+            <form>
+                <input type="text" placeholder="🔍 Type / to search                      |" />
+            </form>
+            
+
+        </section>
+
+        <br>
+
+        <div class="buttons-container">
+            <a href="#">Sign In</a>
+            <button>Sign Up</button>
+        </div>
+
+    </nav>
+
+    <header>
+        <ul>
+            <li>
+                <a href="#" class="active">
+                    <i class="fa-solid fa-book-open"> Overview</i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-folder"> Repositories</i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-project fa-cloud"> Projects</i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-cube"> Packages</i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-star"> Stars</i>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="main-container">
+        <section class="about-user">
+            <div class="user-avatar"></div> 
+            <p class="username">Aishwary Gupta
+                <p>Aishwary2004Gupta . he/him</p>
+            </p>
+            <br>
+            <button class="follow">Follow</button>
+            <p class="user-bio">Open Source Contributor || Tech Blogger ||
+                Learning new stuff so I don't get left behind by AI</p>
+            <div class="followers-info">
+                <a href="#">
+                    <i class="fa-solid fa-person"></i>
+                    <span class="followers">1 follower </span>
+                </a>
+
+                <a href="#">
+                    <span class="following">2 following</span>
+                </a>
+            </div>
+
+            <br>
+
+            <div class="icon-container">
+                <i class="fa-sharp fa-link">
+                    <a href="#" class="twitter">@Aish2004Gupta</a>
+                </i>
+            </div>
+
+            <div class="icon-container">
+                <i class="fa-sharp fa-link">
+                    <a href="#" class="linkedin">in/aishwary-gupta-</a>
+                </i>
+            </div>
+
+            <div class="icon-container">
+                <i class="fa-sharp fa-link">
+                    <a href="#" class="leetcode">https://leetcode.com/Aishwary2004Gupta/</a>
+                </i>
+            </div>
+
+            <div class="icon-container">
+                <i class="fa-sharp fa-link">
+                    <a href="#" class="blog">https://aishwarygupta.hashnode.dev/</a>
+                </i>
+            </div>
+
+        </section>
+        <div class="repos">
+
+
+                <div class="box" >
+                    <h3>Aishwary2004Gupta/README.md
+                        <br><br>
+                        Hi there 👋 I am Aishwary Gupta 🙋</h3>
+                    <img class="image" src="68747470733a2f2f686f6c6f70696e2e6d652f6169736877617279323030346775707461.png"  alt="Hacktoberfest">
+                </div>
+
+                <br>
+
+                
+
+
+                <!-- <div class="box" > -->
+                
+                    <div class="repo-card">
+
+                        
+                        <i class="fa-solid fa-folder"></i>
+               
+        
+                    <a href="#" class="repo-title">Website</a>
+                    <p class="repo-subtitle">Kubernetes website and documentation repo:</p>
+        
+                    <div class="popularity">
+                      <p class="technology-used">HTML </p>
+                      <div class="stars"><i class="fa-regular fa-star"></i>35</div>
+        
+                      <div class="fork">
+                        
+                        <!-- <span class="forked">20</span> -->
+                      </div>
+                    </div>
+                    <p class="pill">Public</p>
+                  </div>
+                <!-- </div> -->
+
+                <div class="repo-card">
+                    <a href="#" class="repo-title"> Welcome-to-Open-Source</a>
+                    <p class="repo-subtitle">Make your first PR request! And enter the world of Open Source Contributions 🍉</p>
+        
+                    <div class="popularity">
+                      <!-- <p class="technology-used">HTML </p>
+                      <div class="stars"><i class="fa-regular fa-star"></i>35</div> -->
+        
+                      <div class="fork">
+                        
+                        <!-- <span class="forked">20</span> -->
+                      </div>
+                    </div>
+                    <p class="pill">Public</p>
+                  </div>
+
+                  <div class="repo-card">
+                    <a href="#" class="repo-title"> pytorch/pytorch </a>
+                    <p class="repo-subtitle">Tensors and Dynamic neural networks in Python with strong GPU acceleration</p>
+        
+                    <div class="popularity">
+                      <p class="technology-used">Python </p>
+                      <div class="stars"><i class="fa-regular fa-star"></i>74.9k</div>
+        
+                      <div class="fork">
+                        
+                        <!-- <span class="forked">20</span> -->
+                      </div>
+                    </div>
+                    <p class="pill">Public</p>
+                  </div>
+
+                  <div class="repo-card">
+                    <a href="#" class="repo-title"> Java-Algorithm </a>
+                    <p class="repo-subtitle">All Algorithms implemented in Java</p>
+        
+                    <div class="popularity">
+                      <p class="technology-used">Java </p>
+                      <!-- <div class="stars"><i class="fa-regular fa-star"></i>35</div> -->
+        
+                      <div class="fork">
+                       
+                        <!-- <span class="forked">20</span> -->
+                      </div>
+                    </div>
+                    <p class="pill">Public</p>
+                  </div> 
+                    </div>
+
+                    
+
+           
+         </div>
+        
+
+    </section>
+    
+</body>
+</html>
